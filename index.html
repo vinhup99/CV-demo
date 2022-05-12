@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV demo</title>
+    <link rel="stylesheet" href="./assets/css/Grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-free-6.0.0-web/css/all.min.css">
+</head>
+<body>
+    <!-- Start Loading-Screen -->
+    <!-- <div class="loading-screen">
+        <div class="loading-screen__wrapper">
+            <div class="ring-wrapper">
+            </div>
+            <h1>Loading...</h1>
+            <div class="loading-bar"><div class="loading-bar__loading"></div></div>
+        </div>
+    </div> -->
+    <!-- End Loading-Screen -->
+
+    <!-- Start Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li class="sidebar__item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Trang chủ</span> 
+            </li>
+            <li class="sidebar__item">
+                <i class="fa-solid fa-user"></i>
+                <span>Thông tin</span> 
+            </li>
+            <li class="sidebar__item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Tóm tắt</span> 
+            </li>
+            <li class="sidebar__item">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Hoạt động</span> 
+            </li>
+            <li class="sidebar__item">
+                <i class="fa-solid fa-book"></i>
+                <span>Blog</span> 
+            </li>
+            <li class="sidebar__item">
+                <i class="fa-solid fa-address-card"></i>
+                <span>Liên hệ</span> 
+            </li>
+        </ul>
+        <ul class="sidebar__sub">
+            <li class="sub-item">
+                <img src="./assets/imgs/flagUSA.png" alt="English">
+            </li>
+            <li class="sub-item">
+                <img src="./assets/imgs/VNflag.png" alt="Vietnamese">
+            </li>
+            <li class="sub-item"><i class="fa-solid fa-moon"></i></li>
+            <li class="sub-item"><i class="fa-solid fa-sun"></i></li>
+        </ul>
+    </div>
+    <!-- End Sidebar -->
+
+    <!-- Start content -->
+    <div class="content">
+        <!-- personal -->
+        <div class="personal">
+            <div class="personal__avatar">
+                <img src="./assets/imgs/kagura.jpg" alt="Avatar">
+            </div>
+            <div class="personal__detail">
+                <h1>Vinh Sama</h1>
+                <h4>FrontEnd Developer</h4>
+                <div class="personal__detail-social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <i class="fa-brands fa-skype"></i>
+                </div>
+                <button class="personal__detail-btn">Tải CV</button>
+            </div>
+            <div class="personal__footer"><h3>© 2022 All rights reserved.</h3></div>
+        </div>
+        <!-- End personal -->
+
+        <!-- Start main -->
+        <div class="main">
+            <!-- Start Home -->
+            <div class="main-item">
+                <div class="home">
+                    <div class="personal__avatar display-mobile">
+                        <img src="./assets/imgs/kagura.jpg" alt="Avatar">
+                    </div>
+                    <div class="home__name">Vinh Sama</div>
+                    <p>Web Developer</p>
+                    <p class="hide">FrontEnd Developer</p>
+                </div>
+            </div>
+            <!-- End Home -->
+
+            <!-- Start about-me -->
+            <div class="main-item display-none">
+                <div class="about-me">
+                    <h1 class="about-me__title">Sơ lược về <span class="highlight">tôi</span></h1>
+                    <div class="about-me__detail-1">
+                        <div class="detail-1__p1">
+                            <p>Đây là công việc tôi luôn đam mê và muốn theo đuổi, là một lập trình viên có kỹ năng, tôi luôn phấn đấu và cố gắng để trở thành kỹ sư lành nghề, đồng thời luôn muốn học những thứ mới cũng như chuyên sâu về lập trình hệ thống lớn.</p>
+                            <p>Tinh thần làm việc nhóm trong ngành là rất quan trọng, bạn không thể hoàn thành tốt một dự án khi không có sự cởi mở trong công việc. Trách nhiệm và cái tâm với nghề sẽ thể hiện trong từng dự án cũng như cách bạn làm việc.</p>
+                            <p>Không ai là hoàn hảo, vì vậy ta sẽ cần sự nỗ lực từng ngày từng giờ để có thể đạt được thứ ta mong muốn.</p>
+                        </div>
+                        <div class="detail-1__p2">
+                            <ul>
+                                <li><span class="highlight">Tuổi</span>23</li>
+                                <li><span class="highlight">Nơi cư trú</span>Việt Nam</li>
+                                <li><span class="highlight">Địa chỉ</span>11 Đường 16, Phường Phước Long A, TP.Thủ Đức, Việt Nam</li>
+                                <li><span class="highlight">eMail</span>kakaka7766@gmail.com</li>
+                                <li><span class="highlight">Số điện thoại</span>0123456789</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2 class="about-me__content">Những gì <span class="highlight">tôi làm</span></h2>
+                    <div class="row">
+                        <div class="about-me__detail-2">
+                            <div class="detail-2__p">
+                                <div class="logo logo--detail-2"><i class="fa-solid fa-desktop"></i></div>
+                                <h4>Web Developer</h4>
+                                <p>Tạo và xây dựng các hệ thống website có yêu cầu bảo mật cao và tốc độ nhanh dựa trên các công nghệ hiện đại như NodeJS, .NetCore, .NET, RabbitMQ, Kafka, Docker, Redis, .... Cùng với đó là các cơ sở dữ liệu như MSSQL, MongoDB, Elasticsearch. Sử dụng nhiều ngôn ngữ khác nhau để tối ưu hệ thống như Javascript, C#, Python, Golang, ...</p>
+                            </div>
+                            <div class="detail-2__p">
+                                <div class="logo logo--detail-2"><i class="fa-solid fa-shop"></i></div>
+                                <h4>Thương mại điện tử</h4>
+                                <p>Có kinh nghiệm trong việc xây dựng, cấu trúc, tối ưu các hệ thống thương mại điện tử lớn nhỏ dựa trên các công nghệ khác nhau.</p>
+                            </div>
+                        </div>
+                        <div class="about-me__detail-2">
+                            <div class="detail-2__p">
+                                <div class="logo logo--detail-2"><i class="fa-solid fa-pencil"></i></div>
+                                <h4>Sáng tạo nội dung</h4>
+                                <p>Xây dựng các phần mềm, API và các công cụ hỗ trợ theo yêu cầu của khách . Quản lý fanpage, nhập văn bản dữ liệu, thu thập dữ liệu các website, làm tool chức năng cho Chrome theo yêu cầu của khách hàng. Đưa ra các ý tưởng cũng như cải thiện sản phẩm dự án , tối ưu nhất đối với các hệ thống cũng như luồng công việc thuận tiện cho các bộ phận khác như Sale, CS, ban quản lý , ban giám đốc có thể theo dõi sát sao công việc cũng như hệ thống của khách hàng.</p>
+                            </div>
+                            <div class="detail-2__p">
+                                <div class="logo logo--detail-2"><i class="fa-regular fa-flag"></i>></div>
+                                <h4>Quản lý</h4>
+                                <p>Tư vấn hỗ trợ và quản lý các đội nhóm lập trình giúp các doanh nghiệp vừa và nhỏ có cái nhìn tổng quan về công việc cũng như tránh hao hụt dòng tiền khi quản lý và xây dựng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End about-me -->
+
+            <!-- Start Tóm tắt -->
+            <div class="main-item display-none">
+                <div class="container ">
+                        <!-- Bảng tóm tắt -->
+                    <h1>Bảng tóm tắt</h1>
+                    <div class="row">
+                        <!-- cột 1 -->
+                        <div class="tt-item-1 col c-12">
+                            <h4 class="tt-item-1__title">Trình độ học vấn</h4>
+                            <!-- timeline-item -1 -->
+                            <div class="timeline-item">
+                                <div class="timeline-item__left">
+                                    <h5>2020</h5>
+                                    <span>Đại học Bách Khoa HCM</span>
+                                </div>
+                                <div class="timeline-item__right">
+                                    <div class="dot"></div>
+                                    <h4>Khoa học máy tính</h4>
+                                    <p>Chuyên ngành phần mềm. Với các chương trình đào tạo như lập trình với các ngôn ngữ như JavaScript (Nodejs), C# (.NetCore), Python, Golang; Cơ sở dữ liệu (SQL Server, MySQL, MongoDB, ...), Hệ điều hành (Linux, Window), Công nghệ phần mềm, Mạng máy tính.</p>
+                                </div>
+                            </div>
+                            <!-- timeline-item -2 -->
+                            <div class="timeline-item">
+                                <div class="timeline-item__left">
+                                    <h5>2014</h5>
+                                    <span>Đại học Bách Khoa HCM</span>
+                                </div>
+                                <div class="timeline-item__right" style="margin-bottom: 50px;">
+                                    <div class="dot"></div>
+                                    <h4>Cao đẳng Kỹ Thuật Cao Thắng</h4>
+                                    <p>Chuyên ngành lập trình Website. Với các chương trình đào tạo như lập trình với các ngôn ngữ như C/C++ (Cơ bản), C# (Window Application, Webform), PHP (Website cơ bản); Cơ sở dữ liệu (SQL Server, MySQL).</p>
+                                </div>
+                            </div>
+                            <!-- Kinh nghiệm -->
+                            <h4 class="tt-item-1__title">Kinh nghiệm</h4>
+    
+                            <!-- timeline-item -3 -->
+                            <div class="timeline-item">
+                                <div class="timeline-item__left">
+                                    <h5>2020 - Current</h5>
+                                    <span>Vihat</span>
+                                </div>
+                                <div class="timeline-item__right">
+                                    <div class="dot"></div>
+                                    <h4>Fullstack Developer</h4>
+                                    <p style="margin-bottom:10px;">Tối ưu và xây dựng các tính năng mới cho hệ thống tin nhắn eSMS.</p>
+                                    <p style="margin-bottom:10px;">Tái cấu trúc Website giới thiệu sản phẩm công ty.</p>
+                                    <p style="margin-bottom:10px;">Xây dựng thêm các chức năng mới cho hệ thống nhắn tin trúng giải.</p>
+                                    <p style="margin-bottom:10px;">Xây dựng giao diện quản lý thông tin chương trình trúng thưởng của tập đoàn Tân Hiệp Phát (.NET, ReactJS, ....)</p>
+                                    <p style="margin-bottom:10px;">Bảo trì và nâng cấp hệ thống TOPUP với khả năng chịu tải cao. Áp dụng công nghệ mới như ReactJS, Electron, .... để xây dựng ứng dụng quản lý theo dõi hệ thống. Xây dựng hệ thống dùng để test tránh ảnh hưởng hệ thống thật.</p>
+                                    <p style="margin-bottom:10px;">Phối hợp và hỗ trợ giải quyết các vấn đề về hệ thống cho các phòng ban chăm sóc khách , nhà cung cấp , khách hàng.</p>
+                                    <p style="margin-bottom:10px;">Nghiên cứu hệ thống DataWareHouse.</p>
+                                    <p style="margin-bottom:10px;">Trainning nhân viên mới.</p>
+                                    <p style="margin-bottom:10px;">Quản lý cơ sở dữ liệu MSSQL.</p>
+                                    <p style="margin-bottom:30px;">Quản lý cơ sở dữ liệu MongoDB.</p>
+                                </div>
+                            </div>
+                            <!-- timeline-item -4 -->
+                            <div class="timeline-item">
+                                <div class="timeline-item__left">
+                                    <h5>2017 - 2018</h5>
+                                    <span>Dirox</span>
+                                </div>
+                                <div class="timeline-item__right" >
+                                    <div class="dot"></div>
+                                    <h4>Software Engineer</h4>
+                                    <p style="margin-bottom:10px;">Lập trình back-end cho hệ thống API của game Stocket (Mobile shopping game).</p>
+                                    <p style="margin-bottom:10px;">Xây dựng trang quản lý bằng Angular 2.</p>
+                                    <p style="margin-bottom:10px;">Học về công nghệ mới NodeJS (Các Framework như Loopback, Express)</p>
+                                    <p style="margin-bottom:30px;">Công ty có 4 chi nhánh tại Việt Nam, Pháp, HongKong, Nhật Bản.</p>
+                                </div>
+                            </div>
+                            <!-- timeline-item -5 -->
+                            <div class="timeline-item">
+                                <div class="timeline-item__left">
+                                    <h5>2016 - 2016</h5>
+                                    <span>Ryomo Vietnam Solutions Co., Ltd.</span>
+                                </div>
+                                <div class="timeline-item__right">
+                                    <div class="dot"></div>
+                                    <h4>Thực tập sinh (Vị trí Web Developer)</h4>
+                                    <p style="margin-bottom:10px;">Tìm hiểu ASP.NET MVC5 và MongoDB.</p>
+                                    <p style="margin-bottom:10px;">Cách thiết lập và thực hiện Project.</p>
+                                    <p style="margin-bottom:10px;">Xây dựng hệ thống Website Quản lý thông tin nội bộ công ty RVSC.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- cột 2 -->
+                        <div class="tt-item-2 col c-12">
+                            <h4 class="tt-item-2__title">Lập trình <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>3 Year</h6>
+                                <span>JavaScript</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 85% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>3 Year</h6>
+                                <span>C#</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 85% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>0.5 Year</h6>
+                                <span>Python</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 30% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>0.5 Year</h6>
+                                <span>Golang</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 30% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>0.5 Year</h6>
+                                <span>PHP</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 40% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>1 Year</h6>
+                                <span>ReactJS</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>2 Year</h6>
+                                <span>HTML/CSS</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 85% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>1 Year</h6>
+                                <span>Angular</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 50% "><div></div></div>
+                            </div>
+                            <!-- Quản lý Code Skills -->
+                            <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Quản lý Code <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>Always</h6>
+                                <span>GIT</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>2 Year</h6>
+                                <span>SVN</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 70% "><div></div></div>
+                            </div>
+                            <!-- Phần mềm Code Skills -->
+                            <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Phần mềm Code <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>Most Of Time</h6>
+                                <span>Visual Studio</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>Always</h6>
+                                <span>Visual Studio Code</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 90% "><div></div></div>
+                            </div>
+                            <!-- Kiểm thử Skills -->
+                            <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Kiểm thử <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>Always</h6>
+                                <span>UnitTest</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>2 Year</h6>
+                                <span>Jmeter</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 75% "><div></div></div>
+                            </div>
+                            <!-- Công nghệ Skills -->
+                            <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Công nghệ <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>2 Year</h6>
+                                <span>Redis</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>2 Year</h6>
+                                <span>RabbitMQ</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>1 Year</h6>
+                                <span>Kafka</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 50% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>1 Year</h6>
+                                <span>Docker</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                            <!-- Hệ cơ sở dữ liệu Skills -->
+                            <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Hệ cơ sở dữ liệu <span class="highlight">Skills</span></h4>
+                            <div class="tt-item-2__exp">
+                                <h6>3 Year</h6>
+                                <span>MSSQL</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 85% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>3 Year</h6>
+                                <span>MongoDB</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 88% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>0.5 Year</h6>
+                                <span>Clickhouse</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 40% "><div></div></div>
+                            </div>
+                             <!-- Hệ điều hành Skills -->
+                             <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Hệ điều hành <span class="highlight">Skills</span></h4>
+                             <div class="tt-item-2__exp">
+                                 <h6>Always</h6>
+                                 <span>Window</span>
+                                 <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                             </div>
+                             <div class="tt-item-2__exp">
+                                 <h6>2 Year</h6>
+                                 <span>Linux/Ubuntu</span>
+                                 <div class="tt-item-2__exp-bar" style="--percent: 70% "><div></div></div>
+                             </div>
+                               <!-- Thiết kế Skills -->
+                               <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Thiết kế <span class="highlight">Skills</span></h4>
+                               <div class="tt-item-2__exp">
+                                   <h6>2 Year</h6>
+                                   <span>Bootstrap</span>
+                                   <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                               </div>
+                               <!-- Kỹ năng mềm Skills -->
+                               <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Kỹ năng mềm <span class="highlight">Skills</span></h4>
+                               <div class="tt-item-2__exp">
+                                   <h6>50%</h6>
+                                   <span>English</span>
+                                   <div class="tt-item-2__exp-bar" style="--percent: 50% "><div></div></div>
+                               </div>
+                               <div class="tt-item-2__exp">
+                                   <h6>88%</h6>
+                                   <span>Communicate</span>
+                                   <div class="tt-item-2__exp-bar" style="--percent: 88% "><div></div></div>
+                               </div>
+                               <div class="tt-item-2__exp">
+                                <h6>70%</h6>
+                                <span>Manager</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 70% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>78%</h6>
+                                <span>Trainning</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 78% "><div></div></div>
+                            </div>
+                            <div class="tt-item-2__exp">
+                                <h6>80%</h6>
+                                <span>Google Search</span>
+                                <div class="tt-item-2__exp-bar" style="--percent: 80% "><div></div></div>
+                            </div>
+                             <!-- Kiến thức -->
+                             <h4 style="margin-bottom: 20px; margin-top: 60px;" class="tt-item-2__title">Kiến thức</h4>
+                             <ul>
+                                 <li>Problem-Solving</li>
+                                 <li>SEO</li>
+                                 <li>Time Management</li>
+                                 <li>Communication</li>
+                                 <li>Print</li>
+                                 <li>Excel</li>
+                                 <li>Word</li>
+                                 <li>Powerpoint</li>
+                                 <li>Social Networking</li>
+                                 <li>Flexibility</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Tóm tắt -->
+
+            <!-- Start Hoạt động -->
+            <div class="main-item display-none">
+                <div class="container">
+                    <h1>Hoạt động</h1>
+                    <ul class="listAction">
+                        <li>All</li>
+                        <li>Works</li>
+                        <li>BoobJob</li>
+                        <li>Ass</li>
+                        <li>HandJob</li>
+                        <li>S&M</li>
+                        <li>BlowJob</li>
+                    </ul>
+                    <div class="imgs-action row">
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                        <div class="col l-4 c-6"><img src="./assets/imgs/hinh-anime-girl-toc-trang_102014961.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End hoạt động -->
+
+            <!-- Start Blog -->
+            <div class="main-item display-none">
+                <div class="blog">
+                    <h1 class="blog__h1">Chức năng sẽ sớm ra mắt</h1>
+                </div>
+            </div>
+            <!-- End Blog -->
+
+            <!-- Start Liên hệ -->
+            <div class="main-item display-none ">
+                <div class="contact-cotainer">
+                    <h1>Liên hệ</h1>
+                    <div class="contact-cotainer__wrapper row">
+                        <div class="contact__icon col c-12">
+                            <div class="contact-icon-item row">
+                                <i class="fa-solid fa-location-dot logo contact-logo"></i>
+                                <h4 style="color: #fff;">Việt Nam</h4>
+                            </div>
+                            <div class="contact-icon-item row">
+                                <i class="fa-solid fa-phone logo contact-logo"></i>
+                                <h4 style="color: #04b4e0;">012 345 6789</h4>
+                            </div>
+                            <div class="contact-icon-item row"><i class="fa-solid fa-square-envelope logo contact-logo"></i></div>
+                            <div class="contact-icon-item row"><i class="fa-brands fa-skype logo contact-logo"></i></div>
+                            <div class="contact-icon-item row"><i class="fa-brands fa-linkedin-in logo contact-logo"></i></div>
+                            <div class="contact-icon-item row"><span>Zalo</span> </div>
+                            <div class="contact-icon-item row">
+                                <i class="fa-solid fa-circle-check logo contact-logo"></i>
+                                <h4 style="color: #fff;">Freelance Available</h4>
+
+                            </div>
+                        </div>
+                        <div class="contact__form col c-12">
+                            <div class="map">
+                                <img src="./assets/imgs/GGmap.PNG" alt="Map">
+                            </div>
+                            <h3>Làm sao tôi có thể <span class="highlight">giúp bạn?</span></h3>
+                            <div class="form">
+                                <div class="info">
+                                    <div class="info__item">
+                                        <span>Họ và tên</span>
+                                        <input type="text" placeholder="Họ và tên">
+                                    </div>
+                                    <div class="info__item">
+                                        <span>Địa chỉ email</span>
+                                        <input type="text" placeholder="Địa chỉ email">
+                                    </div>
+                                    <div class="info__item">
+                                        <span>Tiêu đề</span>
+                                        <input type="text" placeholder="Tiêu đề">
+                                    </div>
+                                </div>
+                                <div class="form_content info__item">
+                                    <span>Nội dung</span>
+                                    <input type="text" placeholder="Nội dung">
+                                </div>
+                            </div>
+                        <div class="contact__form-btn">Gửi tin nhắn</div>
+                    </div>
+                </div>
+            </div>
+            <!-- End liên hệ -->
+
+        </div>
+        <!-- End main -->
+
+        <!-- icon menu mobile -->
+        <input type="checkbox" id="check">
+        <label for="check" class="icon-menu-mobile mobile-icon"><i class="fa-solid fa-bars"></i></label>
+        <label for="check" class="icon-close-mobile mobile-icon"><i class="fa-solid fa-xmark"></i></label>
+        
+        <!--  menu mobile -->
+        <div class="menu-mobile-container">
+            <div class="personal-mobile">
+                 <!--  class nào cần thay đổi trong mobile mới thêm class mobile -->
+                <div class="personal__avatar-mobile"> 
+                    <img src="./assets/imgs/kagura.jpg" alt="Avatar">
+                </div>
+                <div class="personal__detail">
+                    <h1>Vinh Sama</h1>
+                    <h4>FrontEnd Developer</h4>
+                    <ul class="menu-mobile">
+                        <li class="active-mobile">Trang chủ</li>
+                        <li>Thông tin</li>
+                        <li>Tóm tắt</li>
+                        <li>Hoạt động</li>
+                        <li>Blog</li>
+                        <li>Liên hệ</li>
+                    </ul>
+                    <ul class="sidebar__sub-mobile">
+                        <li class="sub-item">
+                            <img src="./assets/imgs/flagUSA.png" alt="English">
+                        </li>
+                        <li class="sub-item">
+                            <img src="./assets/imgs/VNflag.png" alt="Vietnamese">
+                        </li>
+                        <li class="sub-item"><i class="fa-solid fa-moon"></i></li>
+                        <li class="sub-item"><i class="fa-solid fa-sun"></i></li>
+                    </ul>
+                    <div class="personal__detail-social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <i class="fa-brands fa-skype"></i>
+                    </div>
+                    <button class="personal__detail-btn">Tải CV</button>
+                </div>
+                <div class="personal__footer--mobile"><h3>© 2022 All rights reserved.</h3></div>
+            </div>
+        </div>
+    </div>
+    <!-- End content -->
+
+
+    <script src="./main.js"></script>
+    <script>
+      
+    </script>
+</body>
+</html>
