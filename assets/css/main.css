@@ -38,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
 }
 
 .loading-screen__wrapper {
@@ -514,7 +515,7 @@ body {
 
 .timeline-item {
     display: flex;
-    width: 485px;
+    width: 100%px;
 }
 
 .timeline-item__left {
@@ -1050,8 +1051,6 @@ body {
     .contact-cotainer__wrapper .col{
         margin: 0;
     }
-
-
 
     /* .contact__icon */
     .contact-icon-item {
