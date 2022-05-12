@@ -1,12 +1,12 @@
 // event window loading
-// var loadingScreen = document.querySelector('.loading-screen')
-// var loadingBar = document.querySelector('.loading-bar__loading')
-// window.onload = function() {
-//     loadingBar.style. animation = 'loading 3s ease-out forwards'
-//     setTimeout(function() {
-//         loadingScreen.classList.add('fadeOut')
-//     },4000)
-// }
+var loadingScreen = document.querySelector('.loading-screen')
+var loadingBar = document.querySelector('.loading-bar__loading')
+window.onload = function() {
+    loadingBar.style. animation = 'loading 3s ease-out forwards'
+    setTimeout(function() {
+        loadingScreen.classList.add('fadeOut')
+    },4000)
+}
 
 // animation for home>p
 var p1 = document.querySelector('.main .home >p:nth-child(3)') 
