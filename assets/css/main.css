@@ -995,7 +995,7 @@ body {
     }
 
     .main .main-item {
-        overflow: initial;
+        overflow: hidden;
     }
 
     .display-mobile {
