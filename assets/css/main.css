@@ -865,7 +865,8 @@ body {
 }
 
 #check:checked ~.menu-mobile-container {
-    display: block;
+    /* display: block; */
+    pointer-events: all;
     opacity: 1;
 }
 
@@ -900,9 +901,10 @@ body {
     background-color: rgba(222, 222, 222, 0.3);
     z-index: 4;
     overflow: auto;
-    transition: 0.3s;
+    transition: 1s;
     opacity: 0;
-    display: none;
+    pointer-events: none;
+    /* display: none; */
 }
 
 .personal-mobile {
@@ -914,7 +916,7 @@ body {
     right: 0;
     overflow: hidden;
     transform: translateX(100%);
-    transition: 0.3s;
+    transition: transform 1s ;
 }
 
 .personal-mobile .personal__avatar-mobile {
