@@ -397,6 +397,11 @@ body {
     align-items: flex-start;
 }
 
+.about-me .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .highlight {
     color: #04b4e0;
     /* text-shadow: 4px 4px 6px  #04b4e0; */
